@@ -57,8 +57,8 @@ shutdown: str = "&#xeb0d;"
 power_saving: str = "&#xed4f;"
 power_balanced: str = "&#xfa77;"
 power_performance: str = "&#xec45;"
-charging: str = "&#xefef;"
-discharging: str = "&#xefe9;"
+charging: str = "&#xff17;"
+discharging: str = "&#xff13;"
 alert: str = "&#xefb4;"
 
 # Applets
