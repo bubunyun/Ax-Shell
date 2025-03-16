@@ -74,7 +74,8 @@ class Metrics(Box):
             children=[
                 self.cpu_usage,
                 self.cpu_label,
-            ]
+            ],
+            tooltip_text='CPU',
         )
 
         self.ram_usage = Scale(
@@ -98,7 +99,8 @@ class Metrics(Box):
             children=[
                 self.ram_usage,
                 self.ram_label,
-            ]
+            ],
+            tooltip_text='RAM',
         )
 
         self.disk_usage = Scale(
@@ -122,7 +124,8 @@ class Metrics(Box):
             children=[
                 self.disk_usage,
                 self.disk_label,
-            ]
+            ],
+            tooltip_text='Disk',
         )
 
         self.scales = [
