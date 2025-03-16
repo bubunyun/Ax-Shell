@@ -102,7 +102,7 @@ class Bar(Window):
                 orientation="h",
                 spacing=4,
                 children=[
-                    self.metrics,
+                    # self.metrics,
                     self.control,
                 ],
             ),
@@ -146,7 +146,7 @@ class Bar(Window):
                 spacing=4,
                 orientation="h",
                 children=[
-                    self.button_apps,
+                    # self.button_apps,
                     Box(name="workspaces-container", children=[self.workspaces]),
                     self.button_overview,
                     self.boxed_revealer_left,
@@ -160,9 +160,9 @@ class Bar(Window):
                     self.boxed_revealer_right,
                     self.battery,
                     self.systray,
-                    self.button_tools,
+                    # self.button_tools,
                     self.date_time,
-                    self.button_power,
+                    # self.button_power,
                 ],
             ),
         )
