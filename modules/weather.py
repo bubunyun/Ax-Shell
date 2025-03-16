@@ -50,6 +50,7 @@ class Weather(Box):
                 else:
                     GLib.idle_add(self.set_visible, True)
                     GLib.idle_add(self.label.set_label, weather_data.replace(" ", ""))
+                    GLib.idle_add(self.label.set_tooltip_text, location)
             else:
                 GLib.idle_add(self.label.set_markup, f"{icons.cloud_off} Unavailable")
                 GLib.idle_add(self.set_visible, False)
