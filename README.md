@@ -1,3 +1,6 @@
+> [!NOTE]
+> This is a fork with modifications to suit my personal preferences.
+
 <p align="center">
   <img src="assets/cover.png">
 </p>
